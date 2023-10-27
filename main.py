@@ -384,6 +384,46 @@
 # # Bắt đầu vòng lặp chính của ứng dụng
 # root.mainloop()
 
+
+
+
+
+
+
+
+
+# import tkinter as tk
+
+# # Hàm này sẽ được gọi khi nút được nhấn
+# def show_entry_data():
+#     user_input = entry.get()  # Lấy dữ liệu từ entry
+#     output_label.config(text="Dữ liệu nhập vào: " + user_input)  # Hiển thị dữ liệu trên label
+
+# # Tạo cửa sổ chính
+# root = tk.Tk()
+# root.title("Chương trình tkinter")
+
+# # Tạo label và entry widget
+# label = tk.Label(root, text="Nhập dữ liệu:")
+# label.pack(pady=10)  # Cách giữa label và entry
+# entry = tk.Entry(root)
+# entry.pack(pady=10)  # Cách giữa entry và nút
+
+# # Tạo nút để hiển thị dữ liệu nhập vào
+# show_button = tk.Button(root, text="Hiển thị dữ liệu", command=show_entry_data)
+# show_button.pack(pady=10)  # Cách giữa nút và label xuất ra
+
+# # Label để hiển thị dữ liệu nhập vào
+# output_label = tk.Label(root, text="")
+# output_label.pack(pady=10)  # Cách giữa label và cửa sổ
+
+# # Chạy vòng lặp chính của ứng dụng
+# root.mainloop()
+
+
+
+
+
 # ghi excel, xuất excel
 # import pandas as pd
 
