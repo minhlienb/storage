@@ -16,6 +16,11 @@
 # python3 -m pip install requests==2.28.1
 
 
+# pip install pandas
+# pip install matplotlib
+# pip install numpy
+
+
 # Kiểm tra điều kiện đầu vào
 # x = int(input("Nhập số cần tính giai thừa: "))
 # def fact(x):
@@ -369,3 +374,17 @@
 # # Bắt đầu vòng lặp chính của ứng dụng
 # root.mainloop()
 
+# ghi excel, xuất excel
+# import pandas as pd
+
+# # Tạo DataFrame mẫu
+# data = {
+#     'Name': ['Alice', 'Bob', 'Charlie'],
+#     'Age': [25, 30, 35],
+#     'City': ['New York', 'London', 'Paris']
+# }
+# df = pd.DataFrame(data)
+
+# # Ghi DataFrame vào file Excel
+# df.to_excel('output.xlsx', index=False)  # Tham số index=False loại bỏ cột index khi ghi vào tệp tin Excel
+# print("Dữ liệu đã được ghi vào file Excel.")
