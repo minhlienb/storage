@@ -19,6 +19,11 @@
 # pip install pandas
 # pip install matplotlib
 # pip install numpy
+# pip install openpyxl xlrd
+
+# xóa gói, gỡ gói
+# pip uninstall package_name
+
 
 
 # Kiểm tra điều kiện đầu vào
@@ -388,3 +393,21 @@
 # # Ghi DataFrame vào file Excel
 # df.to_excel('output.xlsx', index=False)  # Tham số index=False loại bỏ cột index khi ghi vào tệp tin Excel
 # print("Dữ liệu đã được ghi vào file Excel.")
+
+
+# pandas
+# import pandas as pd
+# pd.Series(calories)
+
+
+# import pandas as pd
+
+# # Reading the CSV file into a DataFrame
+# data = pd.read_csv('file.csv')
+
+# # Printing all data from the DataFrame
+# print(data)
+
+
+
+
