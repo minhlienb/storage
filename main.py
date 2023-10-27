@@ -1,6 +1,11 @@
 # Biểu thức lambda
-#list comprehension
+# double = lambda x: x * 2
+
+# print(double(5))
+# list comprehension
+# return [sv for sv in self.dssv if sv.mssv == mssv]
 # syntax for 
+
 # bài tập lab 1 cơ bản 
 # hàm tìm ucln
 
@@ -407,7 +412,4 @@
 
 # # Printing all data from the DataFrame
 # print(data)
-
-
-
 
