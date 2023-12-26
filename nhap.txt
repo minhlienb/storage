@@ -253,6 +253,33 @@ hoặc các loại dữ liệu khác.
 	front-end sẽ gửi các yêu cầu HTTP đến backend. 
 Backend sau đó sẽ xử lý các yêu cầu này và trả về 
 phản hồi cho front-end.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	III. DNS
 	- Domain Name System (hệ thống phân giải tên miền)
 	- chuyển đổi các tên miền ở dạng 
@@ -382,27 +409,264 @@ OS AND GENERAL OS:
 	Là việc sử dụng các dòng lệnh dùng để điều khiển 
 	hệ điều hành như:
 		ls, cd, mkdir, touch, rm, ... (trên linux)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	II. How Operating Systems Work in General
 		Quản lý tài nguyên
 		Cung cấp giao diện người dùng
 		Cung cấp các dịch vụ cho ứng dụng: quản lý tập tin, 
 		xử lý lỗi và bảo mật.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	III. Process Management
 		Tạo các process mới
 		Quản lý bộ nhớ cho các process
 		Sắp xếp các process
 		Loại bỏ các process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	IV. Thread and Concurrency
 		Thread: Luồng chương trình
 		Concurency: cho phép chạy đồng thời các thread
 		để tối ưu Hiệu suất
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	V. Memory Management
 		Segmentation
 		Paging
 		Swapping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	VI. Basic Networking Concepts
 		Có nhiều loại mạng khác nhau, 
 		nhưng hai loại phổ biến nhất là mạng LAN và mạng WAN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	VII. VERSION CONTROL SYSTEMS
 		Đặc điểm:
 	Theo dõi lịch sử thay đổi của các phiên bản
@@ -454,6 +718,45 @@ c.	Bạn biết gì về server-side rendering và client-side rendering, liên 
 + là phương pháp mà chỉ phần khung xương của trang web được tạo ra  trên máy chủ, còn nội dung động được tạo ra trên trình duyệt của người dùng.
 + được dùng trong những trang web có nội dung động
 + ví dụ: Facebook, Instagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -512,3 +815,183 @@ Các trang và phần tương tác người dùng mạnh mẽ: Các phần của
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REST API (còn được biết với tên gọi RESTful API) là một giao diện lập trình ứng dụng (API) tuân thủ các ràng buộc và quy ước kiến trúc REST được sử dụng trong việc giao tiếp giữa client và server. REST là viết tắt của REpresentational State Transfer, nó được tạo ra bởi nhà khoa học máy tính Roy Fielding.
+
+REST API thường vẫn sử dụng giao thức HTTP/1 kèm theo các định nghĩa trước đó mà cả client và server cần tuân thủ.
+
+Hiện tại, các REST API dùng JSON rất phổ biến. Một ít có thể vẫn còn dùng XML.
+
+
+REST (REpresentational State Transfer) là một đại diện cho sự chuyển đổi dữ liệu. Trong kiến trúc này client và server hoàn toàn độc lập, chúng không biết gì về nhau. Mỗi một request REST API đều không mang theo trạng thái trước đó (stateless).
+
+Như vậy để đôi bên trao đổi state, chúng sẽ phải thông qua các resources. Các resource này chính là phần đại diện cho sự thay đổi dữ liệu.
+
+API (Application Programming Interface) là giao diện lập trình ứng dụng. Giao diện này không dành cho người dùng cuối mà dành cho các nhà phát triển (developer). Nó là cái “bề mặt”, chỉ thấy được phần khai báo (tên, tham số, kiểu trả về), bộ đồ lòng body thì không biết. “Biết mặt không biết lòng” chính là API.
+
+
+GET: Trả về một Resource hoặc một danh sách Resource.
+POST: Tạo mới một Resource.
+PUT: Cập nhật thông tin cho Resource (toàn bộ resource).
+PATCH: Cật nhật thông tin cho resourse (một phần resource).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mvc
+// Model
+class UserModel {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    generateHTML() {
+        return `<p>Name: ${this.name}</p><p>Age: ${this.age}</p>`;
+    }
+}
+// Controller
+class UserController {
+    constructor(model, viewContainerId) {
+        this.model = model;
+        this.viewContainer = document.getElementById(viewContainerId);
+        this.render();
+    }
+
+    render() {
+        const userHTML = this.model.generateHTML();
+        this.viewContainer.innerHTML = userHTML;
+    }
+}
+// Application
+document.addEventListener("DOMContentLoaded", function () {
+    const user = new UserModel("John Doe", 25);
+    const controller = new UserController(user, "app");
+});
+
+DELETE: Xoá một Resource.
